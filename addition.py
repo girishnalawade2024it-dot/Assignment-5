@@ -1,4 +1,7 @@
-a=19
-b=21
-res=a+b
-print("Sum is ",res)
+def add(a, b):
+    return a + b
+
+
+if __name__ == "__main__":
+    print("Result:", add(10, 20))
+
